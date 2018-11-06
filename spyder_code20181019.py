@@ -2,7 +2,7 @@
 """
 Created on Fri Oct 19 18:50:03 2018
 
-@author: hzp0625
+@author: yoshiki
 """
 
 import requests
