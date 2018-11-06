@@ -2,7 +2,7 @@
 """
 Created on Mon Sep 10 19:36:24 2018
 
-@author: hzp0625
+@author: yoshiki
 """
 from selenium import webdriver
 import pandas as pd
