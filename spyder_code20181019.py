@@ -61,6 +61,7 @@ def getDate(x):
     return(pd.Timestamp(datetime.datetime(x[0],x[1],x[2],x[3],x[4],x[5])))
 
 dataall['date'] = dataall.ctime.apply(lambda x:getDate(x))
-
-dataall.to_csv('bilibilib_gongzuoxibao.xlsx',index = False)
+now = datetime.datetime.now()
+now = now.strftime('%y-%m-%H-%M')
+dataall.to_csv('bilibilib_gongzuoxibao_%s.xlsx'%now,index = False)
 
